@@ -16,7 +16,7 @@ Vue.component('product', {
             <div class="product-info">
                 <h1>{{ product }}</h1>
                 <p v-if="inStock">In Stock</p>
-                <p v-else>Out of Stock</p>
+                <p v-else>No longer in Stock</p>
                 <p>Shipping: {{ shipping }}</p>
 
                 <ul>
